@@ -1,0 +1,9 @@
+.form {
+    margin: 100px 50px;
+    background: red;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}

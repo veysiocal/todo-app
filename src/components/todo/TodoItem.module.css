@@ -1,0 +1,39 @@
+.todoDiv {
+    background-color: pink;
+    border: black 1px solid;
+    color: black;
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.todoDiv button {
+    width: 80px;
+    border-radius: 15px;
+    padding: 5px;
+    color: black;
+    font-size: 12px;
+}
+.deleteBtn {
+    background-color: red;
+    color: white;
+    margin: 0 5px;
+}
+
+.doneBtn {
+    background: green;
+    width: 100px;
+    color: white;
+}
+.todoDiv button:hover {
+    background-color: pink;
+}
+
+.done {
+    text-decoration: line-through;
+}
