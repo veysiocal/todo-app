@@ -9,30 +9,22 @@ import classes from './App.module.css';
 function App() {
   return (
     <>
-      {/* <Header /> */}
-    {/* <Auth /> */}
-    <Todos />
+      <Header />
+      {/* <Auth /> */}
+      {/* <Todos /> */}
 
       {/* <main className={classes.main}>
       <Navigate to='/home-page' />
-
-        <Routes>
-          <Route path="/">
-            <Navigate to='/home-page' />
-          </Route>
-          <Route path="/home-page" >
-            <HomePage />
-          </Route>
-          <Route path="/login">
-            <Auth />
-          </Route>
-          <Route path="/todos">
-            <Todos />
-          </Route>
-        </Routes>
-      </main> */}
-
-
+  */}
+      <Routes>
+        {/* <Route path="/">
+          <Navigate to='/home-page' />
+        </Route> */}
+        <Route path="/home-page" element={<HomePage />} />
+        <Route path="/login" element={<Auth />} />
+        <Route path="/todos" element={<Todos />} />
+    </Routes>
+      {/* </main>  */ }
     </>
   );
 }
